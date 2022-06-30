@@ -48,6 +48,12 @@ The category c39 for cultivating cabbages had an overall lower mean for the nume
 
 ### Numerical Descriptive Results
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The cultivation method c39 had a median of 51.0, while c52 had a median of 64.5. c39 had a mean of 51.5 and c52 had a mean of 64.4 meaning that the cultivation method c52 was more successful in producing a higher average of vitamin C.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
